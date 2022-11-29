@@ -1,17 +1,17 @@
-import {React, useState} from "react";
+import {React} from "react";
 
 const SearchBar = () => {
 
-    const [search, setSearch] = useState('');
-    const [date, setDate] = useState(new Date())
+    // const [search, setSearch] = useState('');
+    // const [date, setDate] = useState(new Date())
 
-    const handleChange = (event) => {
-        if(event.target.id === 'plate'){
-            setSearch(event.target.value)
-        } else if(event.target.id === 'date'){
-            setDate(event.target.value)
-        }
-    }
+    // const handleChange = (event) => {
+    //     if(event.target.id === 'plate'){
+    //         setSearch(event.target.value)
+    //     } else if(event.target.id === 'date'){
+    //         setDate(event.target.value)
+    //     }
+    // }
 
     return(
         <div className="mx-auto w-screen p-2 mb-10">
